@@ -8,14 +8,17 @@ Task:
 create a clean eda notebook
 continue svg
 
-| Model  | Results | Specifications |
-| ------------- | ------------- | ------------- |
-| TFIDF  | {'modelName': 'Content-Based', 'recall@3': 0.2672732442422519, 'recall@5': 0.3210122263292579, 'recall@10': 0.4139891953369349}  | project need statement |
-| SVG  | Content Cell  | |
+| Rec | Model  | Results | Specifications |
+| -- | ------------- | ------------- | ------------- |
+| 1 | TFIDF  | {'modelName': 'Content-Based', 'recall@3': 0.2672732442422519, 'recall@5': 0.3210122263292579, 'recall@10': 0.4139891953369349}  | Spec.1 |
+| 2 | SVG  | Content Cell  | |
 
 
 `TFIDF`
 
 
-`Specifications`: 'Project ID', 'Project Subject Subcategory Tree', 'Project Title', 'Project Need Statement', 'School State'
-`results` : {'modelName': 'Content-Based', 'recall@3': 0.2672732442422519, 'recall@5': 0.3210122263292579, 'recall@10': 0.4139891953369349}
+`Spec.1`: 
+
+The text consists of the following:
+
+['Project ID', 'Project Subject Subcategory Tree', 'Project Title', 'Project Need Statement', 'School State']
