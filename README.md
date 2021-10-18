@@ -30,4 +30,4 @@ The text consists of the following:
 
 `Spec.2`:
 
-the result of ass models were added.
+the result of ALL models were added. - TFIDF, embedding, SVD
