@@ -25,6 +25,8 @@ The text consists of the following:
 
 ['Project ID', 'Project Subject Subcategory Tree', 'Project Title', 'Project Need Statement', 'School State']
 
+* I believe the results of this and embedding can get much better with just adding more expl.
+
 
 `Spec.2`:
 
