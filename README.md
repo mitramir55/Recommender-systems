@@ -27,7 +27,12 @@ The text consists of the following:
 
 * I believe the results of this and embedding can get much better with just adding more expl.
 * Add posted year
+* Add <SEP>
 
 `Spec.2`:
 
 the result of ALL models were added. - TFIDF, embedding, SVD
+
+
+Things to change or check in the future:
+* Add Dates
