@@ -40,3 +40,4 @@ Things to change or check in the future:
 
 External dataset source: [link](https://www.unitedstateszipcodes.org/zip-code-database/)
 I'm using the same people who have donated at least 5 times.
+For external 0.998 percent of people remain after mergin the datasets (external and the main df)
