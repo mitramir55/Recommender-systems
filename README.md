@@ -40,4 +40,5 @@ Things to change or check in the future:
 
 External dataset source: [link](https://www.unitedstateszipcodes.org/zip-code-database/)
 I'm using the same people who have donated at least 5 times.
-For external 0.998 percent of people remain after mergin the datasets (external and the main df)
+For external 0.998 percent of people remain after merging the datasets (external and the main df)
+I used the same method as I did in the embedding notebook for calculating the preference of donors (the embeddings). More specifically, the embeddings of project he\she has donated to, will be multiplied by the amount of donation and then summed up.
