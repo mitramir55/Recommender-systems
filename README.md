@@ -14,9 +14,7 @@ continue svg
 | 2 | SVG  | {'modelName': 'Collaborative Filtering', 'recall@3': 0.6124537958487347, 'recall@5': 0.6994597668467444, 'recall@10': 0.809212396929201}  | |
 | 3 | Embeddings  | {'modelName': 'Content-Based-Embeddings', 'recall@3': 0.10093829968723343, 'recall@5': 0.13392095535968154, 'recall@10': 0.20926926357691214} | |
 | 4 | Hybrid  | {'modelName': 'Hybrid', 'recall@3': 0.6050611316462895, 'recall@5': 0.6724481091839636, 'recall@10': 0.752061415979528} | Spec.2 |
-
-
-`TFIDF`
+| 5 | Graph-based  |  | Spec.3 |
 
 
 `Spec.1`: 
@@ -36,3 +34,9 @@ the result of ALL models were added. - TFIDF, embedding, SVD
 
 Things to change or check in the future:
 * Add Dates
+
+
+`Spec.3`
+
+External dataset source: [link](https://www.unitedstateszipcodes.org/zip-code-database/)
+I'm using the same people who have donated at least 5 times.
