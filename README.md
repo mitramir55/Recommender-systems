@@ -24,6 +24,7 @@ The text consists of the following:
 ['Project ID', 'Project Subject Subcategory Tree', 'Project Title', 'Project Need Statement', 'School State']
 
 * I believe the results of this and embedding can get much better with just adding more expl.
+* The stopwords could be removed
 * Add posted year
 * Add <SEP>
 
@@ -41,6 +42,10 @@ Things to change or check in the future:
 External dataset source: [link](https://www.unitedstateszipcodes.org/zip-code-database/)
 I'm using the same people who have donated at least 5 times.
 For external 0.998 percent of people remain after merging the datasets (external and the main df)
+
+* The stopwords could be removed
+
 I used the same method as I did in the embedding notebook for calculating the preference of donors (the embeddings). More specifically, the embeddings of project he\she has donated to, will be multiplied by the amount of donation and then summed up.
+
 * I did not remove any stopwords
 *Overall we have projects_df, donor_profile_df, donor_profile_emb
