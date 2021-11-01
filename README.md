@@ -4,9 +4,26 @@ This is going to be the list of done tasks:
 
 Fourth of October: added SVG + removed the projects type + changed the categories with small number of vars to cat type + corrected the previous dataset, it still had people with less than 5 donations and projects with less than 30 donations!
 
-Task: 
-create a clean eda notebook
-continue svg
+
+
+---
+### Evaluation
+
+`project_i` = a project the donor has donated to in the test set 
+
+`all_projects` = projects the donor has donated to in the test set
+
+
+for each projects (`project_i`) in `all_projects`:
+
+1. Select 100 random projects the donor had not donated to.
+2. Put `project_i` among these 100 random projects
+3. See where `project_i` is ranked by the algorithm
+
+Count for what number of times donated projects have been in the top 3, 5, and 10.
+
+* Recall@n : # of projects ranked as top n / count(`all_projects`) 
+---
 
 | Rec | Model  | Results | Specifications |
 | -- | ------------- | ------------- | ------------- |
@@ -15,7 +32,7 @@ continue svg
 | 3 | Embeddings  | {'modelName': 'Content-Based-Embeddings', 'recall@3': 0.10093829968723343, 'recall@5': 0.13392095535968154, 'recall@10': 0.20926926357691214} | |
 | 4 | Hybrid  | {'modelName': 'Hybrid', 'recall@3': 0.6050611316462895, 'recall@5': 0.6724481091839636, 'recall@10': 0.752061415979528} | Spec.2 |
 | 5 | Graph-based  | {'modelName': 'graph_based', 'recall@3': 0.14260089686098654, 'recall@5': 0.18684603886397608, 'recall@10': 0.2687593423019432} | Spec.3 |
-
+---
 
 `Spec.1`: 
 
