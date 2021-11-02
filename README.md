@@ -71,3 +71,5 @@ I used the same method as I did in the embedding notebook for calculating the pr
 
 ### <span style="color:lightgreen">Things to be changed/proposals </span>
 * We could use the last n donations of each user for the test set
+
+ *Doing a random split would not be fair, as we could potentially be using a user’s recent reviews for training and earlier reviews for testing.* [link](https://towardsdatascience.com/deep-learning-based-recommender-systems-3d120201db7e)
