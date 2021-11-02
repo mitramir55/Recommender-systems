@@ -66,3 +66,8 @@ I used the same method as I did in the embedding notebook for calculating the pr
 
 * I did not remove any stopwords
 *Overall we have projects_df, donor_profile_df, donor_profile_emb
+
+
+
+### <span style="color:lightgreen">Things to be changed/proposals </span>
+* We could use the last n donations of each user for the test set
