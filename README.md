@@ -32,6 +32,8 @@ Count for what number of times donated projects have been in the top 3, 5, and 1
 | 3 | Embeddings  | {'modelName': 'Content-Based-Embeddings', 'recall@3': 0.10093829968723343, 'recall@5': 0.13392095535968154, 'recall@10': 0.20926926357691214} | |
 | 4 | Hybrid  | {'modelName': 'Hybrid', 'recall@3': 0.6050611316462895, 'recall@5': 0.6724481091839636, 'recall@10': 0.752061415979528} | Spec.2 |
 | 5 | Graph-based  | {'modelName': 'graph_based', 'recall@3': 0.14260089686098654, 'recall@5': 0.18684603886397608, 'recall@10': 0.2687593423019432} | Spec.3 |
+| 6 | NN (regression-like)  |  | Spec.4 |
+
 ---
 
 `Spec.1`: 
@@ -67,9 +69,13 @@ I used the same method as I did in the embedding notebook for calculating the pr
 * I did not remove any stopwords
 *Overall we have projects_df, donor_profile_df, donor_profile_emb
 
+`Spec.4`
 
+In here, I couldn't give any unseen projects to our model. So I checked and filtered the projects so the model sees the project at least once in the training set. 
 
 ### <span style="color:lightgreen">Things to be changed/proposals </span>
+
 * We could use the last n donations of each user for the test set
+* Add the popular project method.
 
  *Doing a random split would not be fair, as we could potentially be using a user’s recent reviews for training and earlier reviews for testing.* [link](https://towardsdatascience.com/deep-learning-based-recommender-systems-3d120201db7e)
