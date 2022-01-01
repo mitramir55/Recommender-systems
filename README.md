@@ -1,7 +1,7 @@
 # Recommender-systems
 
 
-Here are the collection of appraoches for a recommender systems problem. [link Graph](https://observablehq.com/@mitramir55/force-directed-graph)
+Here are the collection of appraoches for a recommender systems problem. [link to the Graph](https://observablehq.com/@mitramir55/force-directed-graph)
 
 ![pic](graph-based-pic.JPG)
 ---
