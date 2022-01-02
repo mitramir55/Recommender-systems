@@ -69,7 +69,8 @@ I used the same method as I did in the embedding notebook for calculating the pr
 
 `Spec.4`
 
-In here, I couldn't give any unseen projects to our model. So I checked and filtered the projects so the model sees the project at least once in the training set. 
+In here, I couldn't give any unseen projects to our model. This causes the testing set to shrink. Because, I filter the testing set, to only include the projects that also were in the training set.
+
 
 ### <span style="color:lightgreen">Things to be changed/proposals </span>
 
