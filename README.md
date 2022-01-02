@@ -1,7 +1,7 @@
 # Recommender-systems
 
 
-Here are the collection of appraoches for a recommender systems problem. 
+Here are the collection of appraoches for a recommender systems problem. [link to the Graph](https://observablehq.com/@mitramir55/force-directed-graph)
 
 ![pic](graph-based-pic.JPG)
 ---
@@ -30,7 +30,7 @@ Count for what number of times donated projects have been in the top 3, 5, and 1
 | 3 | Embeddings  | {'modelName': 'Content-Based-Embeddings', 'recall@3': 0.10093829968723343, 'recall@5': 0.13392095535968154, 'recall@10': 0.20926926357691214} | |
 | 4 | Hybrid  | {'modelName': 'Hybrid', 'recall@3': 0.6050611316462895, 'recall@5': 0.6724481091839636, 'recall@10': 0.752061415979528} | Spec.2 |
 | 5 | Graph-based  | {'modelName': 'graph_based', 'recall@3': 0.14260089686098654, 'recall@5': 0.18684603886397608, 'recall@10': 0.2687593423019432} | Spec.3 |
-| 6 | NN (regression-like)  |  | Spec.4 |
+| 6 | NN (regression-like)  | 0.54 accuracy - not implemented the same way | Spec.4 |
 
 ---
 
