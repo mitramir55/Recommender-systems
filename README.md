@@ -33,7 +33,7 @@ Count for what number of times donated projects have been in the top 3, 5, and 1
 | 6 | NN (regression-like)  | {'modelName': 'NN-Regression-like', 'recall@3': 0.03212965595678135, 'recall@5': 0.052032982655672445, 'recall@10': 0.10122263292578902} | Spec.4 |
 | 7 | NN (regression-Generated-Embeddings)  | {'modelName': 'NN-with-Generated-Embeddings',  'recall@3': 0.07571724341910677, 'recall@5': 0.11298432416444838, 'recall@10': 0.18101153504880213}  | Spec.5 |
 | 7 | NN (regression-Generated-Embeddings)  | {'modelName': 'NN-with-Generated-Embeddings', 'recall@3': 0.07571724341910677, 'recall@5': 0.11298432416444838, 'recall@10': 0.18101153504880213} | Spec.6 |
-
+| 8 | NN (regression-Generated-Embeddings)  | {'modelName': 'NN-with-Generated-Embeddings', 'recall@3': 0.06704384724186704, 'recall@5': 0.09448373408769449, 'recall@10': 0.15841584158415842} | Spec.6 |
 
 ---
 
@@ -83,7 +83,9 @@ epochs = 1, batch_size = 16
 
 After the first fold, the validation turned awful results.k = 3, epochs = 10, batch_size = 16.
 
-``
+`Spec.7`
+
+With bigger batch size, less epochs the result of val is much better- decreasing with each fold. k = 3, epochs = 5, batch_size = 64
 
 
 ### <span style="color:lightgreen">Things to be changed/proposals </span>
