@@ -31,6 +31,8 @@ Count for what number of times donated projects have been in the top 3, 5, and 1
 | 4 | Hybrid  | {'modelName': 'Hybrid', 'recall@3': 0.6050611316462895, 'recall@5': 0.6724481091839636, 'recall@10': 0.752061415979528} | Spec.2 |
 | 5 | Graph-based  | {'modelName': 'graph_based', 'recall@3': 0.14260089686098654, 'recall@5': 0.18684603886397608, 'recall@10': 0.2687593423019432} | Spec.3 |
 | 6 | NN (regression-like)  | {'modelName': 'NN-Regression-like', 'recall@3': 0.03212965595678135, 'recall@5': 0.052032982655672445, 'recall@10': 0.10122263292578902} | Spec.4 |
+| 7 | NN (regression-Generated-Embeddings)  | {'modelName': 'NN-with-Generated-Embeddings', 'recall@3': 0.06195190947666195, 'recall@5': 0.09165487977369166, 'recall@10': 0.16265912305516267} | Spec.5 |
+
 
 ---
 
@@ -70,6 +72,11 @@ I used the same method as I did in the embedding notebook for calculating the pr
 `Spec.4`
 
 In here, I couldn't give any unseen projects to our model. This causes the testing set to shrink. Because, I filter the testing set, to only include the projects that also were in the training set.
+
+`Spec.5`
+
+This model has very small trianing as it is bigger than the others and takes a long time to process the text. 
+epochs = 1, batch_size = 16
 
 
 ### <span style="color:lightgreen">Things to be changed/proposals </span>
