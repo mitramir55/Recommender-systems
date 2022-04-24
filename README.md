@@ -32,8 +32,6 @@ Count for what number of times donated projects have been in the top 3, 5, and 1
 | 5 | Graph-based  | {'modelName': 'graph_based', 'recall@3': 0.14260089686098654, 'recall@5': 0.18684603886397608, 'recall@10': 0.2687593423019432} | Spec.3 |
 | 6 | NN (regression-like)  | {'modelName': 'NN-Regression-like', 'recall@3': 0.03212965595678135, 'recall@5': 0.052032982655672445, 'recall@10': 0.10122263292578902} | Spec.4 |
 | 7 | NN (regression-Generated-Embeddings)  | {'modelName': 'NN-with-Generated-Embeddings',  'recall@3': 0.07571724341910677, 'recall@5': 0.11298432416444838, 'recall@10': 0.18101153504880213}  | Spec.5 |
-| 7 | NN (regression-Generated-Embeddings)  | {'modelName': 'NN-with-Generated-Embeddings', 'recall@3': 0.07571724341910677, 'recall@5': 0.11298432416444838, 'recall@10': 0.18101153504880213} | Spec.6 |
-| 8 | NN (regression-Generated-Embeddings)  | {'modelName': 'NN-with-Generated-Embeddings', 'recall@3': 0.06704384724186704, 'recall@5': 0.09448373408769449, 'recall@10': 0.15841584158415842} | Spec.6 |
 
 ---
 
@@ -79,12 +77,9 @@ In here, I couldn't give any unseen projects to our model. This causes the testi
 This model has very small trianing as it is bigger than the others and takes a long time to process the text. 
 epochs = 1, batch_size = 16
 
-`Spec.6`
+`Spec.6` and `Spec.7`
 
 After the first fold, the validation turned awful results.k = 3, epochs = 10, batch_size = 16.
-
-`Spec.7`
-
 With bigger batch size, less epochs the result of val is much better- decreasing with each fold. k = 3, epochs = 5, batch_size = 64
 
 
